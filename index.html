@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Delani Studios</title>
+</head>
+
+<body>
+    <div id="home">
+        <div class="name">
+            <img src="images/logo.png">
+            <h1 class="header">WELCOME <br>TO DELANI STUDIO</h1>
+            <P class="ppp">AMAZING PEOPLE ARE MAKING DESIGNS IN A FUN ENVIRONMENT</P>
+            <a href="#about"><img src="images/mouse_click.png" id="mouse" class="mouse"></a>
+        </div>
+    </div>
+    <div class="container">
+        <h2 id="about">ABOUT US</h2>
+        <p class="about">
+            When you work with us, you are part of a team of committed
+            collaborators. All aspects of our software development process are
+            integrated, interactive and agile. <br />
+            Our approach unifies design, development and product management to
+            create exceptional products. <br />
+            We start each project by understanding your business goals, the user’s
+            needs and the product requirements.
+            <br />
+            Then we help translate them into effective and elegant solutions.
+        </p>
+    </div>
+    <div id="service">
+        <h2>SERVICES</h2>
+        <div class="container-fluid">
+            <p class="services container">
+                Before we sign a contract or write a line of code or team will spend the
+                necessary time needed to understand your product vision. <br />
+                The outcome of this scoping session is proposal or high-level statement
+                of work. <br />
+                Based on your requirements, we can provide a complete offering or just
+                the pieces you need.
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid" id="what">
+        <div class="container">
+            <h2>WHAT WE DO</h2>
+            <div class="row text-center">
+                <div class="col-md-4 " id="ddd">
+                    <img src="images/design_icon.png" class="pointer" id="designImage">
+                    <h5><strong>DESIGN</strong></h5>
+                    <p id="design" class="whatWeDo">
+                        Our design practice offers a full range of services including brand
+                        strategy, interaction and visual design and user experience testing.
+                        Throughout your project, our designers create and implement visual
+                        design and workflows, solicit user feedback and work with you to
+                        make sure what gets built is what is needed.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/dev_icon.png" class="pointer" id="developImage">
+                    <h5><strong>DEVELOPMENT</strong></h5>
+                    <p id="development" class="whatWeDo">
+                        All engineers are fluent in the latest enterprise, mobile and web
+                        development technologies. <br />
+                        They collaborate with your team to write, and improve code on a
+                        daily basis, using proven practices such as test-driven development
+                        and pair programming.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/product_icon.png" class="pointer" id="productImage">
+                    <h5><strong>PRODUCT MANAGEMENT</strong></h5>
+                    <p id="product" class="whatWeDo">
+                        Planning and development is iterative. Because we are constantly
+                        coding and testing, the products we build are always ready to go
+                        live. <br> This iterative process allows for changes as business
+                        requirements involve.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container portfolios">
+            <h2>PORTFOLIO</h2>
+            <div class="row roows">
+                <div class="col-md-3 mycol">
+                    <img src="images/work1.jpg" alt="project" class="img-fluid portfolio pt-3" id="project1">
+                    <p class="text" id="text1">project1</p>
+                </div>
+                <div class=" col-md-3 ">
+                    <img src="images/work2.jpg" alt="project" class="img-fluid portfolio pt-3" id="project2">
+                    <p class="text" id="text2">project2</p>
+                </div>
+                <div class=" col-md-3 ">
+                    <img src="images/work3.jpg" alt="project" class="img-fluid portfolio pt-3" id="project3">
+                    <p class="text" id="text3">project3</p>
+                </div>
+                <div class=" col-md-3">
+                    <img src="images/work4.jpg" alt="project" class="img-fluid portfolio pt-3" id="project4">
+                    <p class="text" id="text4">project4</p>
+                </div>
+            </div>
+            <div class="row roows">
+                <div class=" col-md-3 ">
+                    <img src="images/work5.jpg" alt="project" class="img-fluid portfolio pt-3" id="project5">
+                    <p class="text" id="text5">project5</p>
+                </div>
+                <div class=" col-md-3">
+                    <img src="images/work6.jpg" alt="project" class="img-fluid portfolio pt-3" id="project6">
+                    <p class="text" id="text6">project6</p>
+                </div>
+                <div class="  col-md-3 ">
+                    <img src="images/work7.jpg" alt="project" class="img-fluid portfolio pt-3" id="project7">
+                    <p class="text" id="text7">project7</p>
+                </div>
+                <div class=" col-md-3">
+                    <img src="images/work8.jpg" alt="project" class="img-fluid portfolio pt-3" id="project8">
+                    <p class="text" id="text8">project8</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="contacts">
+        <h2>CONTACTS</h2>
+        <form onsubmit=" return validateForm()" class="form">
+            <!-- Begin Mailchimp Signup Form -->
+
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="mt-3 form-control" placeholder="Name" id="name" required>
+                </div>
+                <div class="col">
+                    <input type="email" class="mt-3 form-control col-form-label" placeholder="Email" id="email"
+                        required>
+                </div>
+                <div class="col-sm-12" id="text">
+                    <textarea type="text" class="mt-3 form-control" placeholder="Your message here..." id="textarea"
+                        rows="6" required></textarea>
+                </div><br>
+                <div>
+                    <button type="submit" class="btn btn-outline-info mt-3">Subscribe</button>
+                    <!----- <a onclick="submit()" class="mt-3 btn btn-outline-info btn-lg">Subscribe</a>-->
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-10">
+                <div class="row justify-content-center footer">
+                    <img src="icons/behance.png " class="p-2 pointer">
+                    <img src="icons/dribble.png" class="p-2 pointer">
+                    <img src="icons/facebook.png" class="p-2 pointer">
+                    <img src="icons/flickr.png" class="p-2 pointer">
+                    <img src="icons/g_plus.png" class="p-2 pointer">
+                    <img src="icons/pinterest.png" class="p-2 pointer">
+                    <img src="icons/skype.png" class="p-2 pointer">
+                    <img src="icons/stumble_upon.png" class="p-2 pointer">
+                    <img src="icons/twitter.png" class="p-2 pointer">
+                    <img src="icons/you_tube.png" class="p-2 pointer">
+                </div>
+                <p style="text-align:center;">Delani Studio<br> &copy; 2019</p>
+            </div>
+        </div>
+    </div>
+    <script src="jquery/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
