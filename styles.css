@@ -1,23 +1,22 @@
-#home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(https://bit.ly/2JC7x5P);
+#heading {
+    background-image: url(https://bit.ly/2JC7x5P);
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
-    padding-top: 310px;
-    color: white;
+    /* padding-top: 310px; */
+    /* color: white; */
   }
-  .header {
+  .heading {
     font-size: 3.5em;
     padding-top: 33px;
     font-family: "Open Sans", sans-serif;
   }
-  .ppp {
+  .text {
     font-size: 2em;
     padding: 20px;
   }
-  #mouse {
+  #mouse-click {
     animation: mouse 2s infinite;
     top: 50vh; 
   }
