@@ -3,7 +3,7 @@
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    padding-top: 310px;
+    padding-top: 300px;
     color: white;
     height: 100vh;
   }
@@ -23,8 +23,8 @@
   .About {
     font-family: 'Poppins';
     font-size: 25px;
-    line-height: 2.5;
-    height: 50vh;
+    line-height: 3;
+    height: 60vh;
     text-align: center;
   }
   h2 {
@@ -34,18 +34,17 @@
     font-size: 3em;
   }
   .services {
-    font-size: 25px;
     text-align: center;
-    font-family: 'Monda';
-    line-height: 4;
+    font-size: 25px;
+    line-height: 5;
   }
-  #service {
+  #services {
     background-image: url(https://bit.ly/329RzGF);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 60px;
     height: 60vh;
     color: white;
-    padding-top: 90px;
   }
   #row2 {
     padding-top: 50px;
