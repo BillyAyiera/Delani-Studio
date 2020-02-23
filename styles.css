@@ -18,7 +18,7 @@
     font-size: large;
   }
   #mouse-click {
-    animation: mouse 2s infinite;
+    animation: mouse 1s infinite;
   }
   @keyframes mouse {
     0%,
