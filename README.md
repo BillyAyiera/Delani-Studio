@@ -8,7 +8,7 @@
 - Contacts
 - Author
 
-# DELANI-STUDIOS
+# DELANI STUDIO
 
 ## DESCRIPTION
 
