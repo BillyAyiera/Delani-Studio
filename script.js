@@ -16,7 +16,7 @@ function validateTheForm() {
     }
     event.preventDefault();
   }
-//   function for what we do responsiveness
+//   function for what we do-responsiveness
   $(document).ready(function() {
     $("#design-Img").click(function() {
       $("#dsgn").show("2000");
@@ -42,7 +42,7 @@ function validateTheForm() {
       $("#product-Img").show("2000");
       $("#prdct").hide("slow")
     });
-//    function for portfolio responsivesness  
+//    function for portfolio-responsivesness  
     $("#work1").hover(
       function() {
         $("#txt1").show("2000");
