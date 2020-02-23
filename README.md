@@ -12,17 +12,12 @@
 
 ## DESCRIPTION
 
-- This is a website that I have created with the purpose of  `practising skills learnt`. Given `screenshots` I have tried to create an exact copy of the same website that has same functioning.
+- This is a website that I have created to demonstrate that I did learn html, css, javascript, bootstrap and jquery.
 
 ## Deployment
 
-- You can vist the site directly by clicking [HERE](https://skimanikings.github.io/Delani-Studios/)
-- To view the source codes on github click [HERE](https://github.com/SkimaniKings/Delani-Studios)
-
-## BDD
-
-> The project outcome should be an exact replica of the initial project. 
-> Effects from the original website should be portrayed in the website created. 
+- You can vist the site directly by clicking [HERE]()
+- To view the source codes on github click [HERE]()
 
 ## Technologies Used
 - html
