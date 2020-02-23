@@ -5,7 +5,6 @@
 - Deployment
 - Technologies used
 - Licence
-- Contacts
 - Author
 
 # DELANI STUDIO
