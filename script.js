@@ -1,16 +1,16 @@
-function validateForm() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
+function validateTheForm() {
+    var Name = document.getElementById("Name").value;
+    var Email = document.getElementById("Email").value;
     var key = "http://eepurl.com/gIAK4r";
-    if (name == "") {
-      alert("please fill in your name");
+    if (Name == "") {
+      alert("please fill in your Name");
       return false;
-    } else if (email == "") {
-      alert("Please fill in your name and email");
+    } else if (Email == "") {
+      alert("Please fill in your name and Email");
       return false;
     } else {
       alert(
-        name +
+        Name +
           ", we have received your message. Thank you for reaching out to us."
       );
     }
