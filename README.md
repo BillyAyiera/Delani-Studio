@@ -17,7 +17,7 @@
 ## Deployment
 
 - You can vist the site directly by clicking [HERE](https://billyayiera.github.io/delani-studio/)
-- To view the source codes on github click [HERE]()
+- To view the source codes on github click [HERE](https://github.com/BillyAyiera/delani-studio)
 
 ## Technologies Used
 - html
