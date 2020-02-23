@@ -12,7 +12,7 @@
 
 ## DESCRIPTION
 
-- This is a website that I have created to demonstrate that I did learn html, css, javascript, bootstrap and jquery.
+- This is a website that I have created to demonstrate that I did learn how to integrate html, css, javascript, bootstrap and jquery.
 
 ## Deployment
 
