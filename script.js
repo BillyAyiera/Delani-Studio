@@ -1,7 +1,7 @@
+// submit button function
 function validateTheForm() {
     var Name = document.getElementById("Name").value;
     var Email = document.getElementById("Email").value;
-    var key = "http://eepurl.com/gIAK4r";
     if (Name == "") {
       alert("please fill in your Name");
       return false;
@@ -16,94 +16,95 @@ function validateTheForm() {
     }
     event.preventDefault();
   }
+//   function for what we do responsiveness
   $(document).ready(function() {
     $("#design-Img").click(function() {
-      $("#design").show("2000");
+      $("#dsgn").show("2000");
       $("#design-Img").hide("slow")
     });
-    $("#design").click(function() {
+    $("#dsgn").click(function() {
       $("#design-Img").show("2000");
-      $("#design").hide("slow")
+      $("#dsgn").hide("slow")
     });
     $("#develop-Img").click(function() {
-      $("#development").show("2000");
+      $("#dvlpmnt").show("2000");
       $("#develop-Img").hide("slow")
     });
-    $("#development").click(function() {
+    $("#dvlpmnt").click(function() {
       $("#develop-Img").show("2000");
-      $("#development").hide("slow")
+      $("#dvlpmnt").hide("slow")
     });
     $("#product-Img").click(function() {
-      $("#product").show("2000");
+      $("#prdct").show("2000");
       $("#product-Img").hide("slow")
     }); 
-    $("#product").click(function() {
+    $("#prdct").click(function() {
       $("#product-Img").show("2000");
-      $("#product").hide("slow")
+      $("#prdct").hide("slow")
     });
-  
-    $("#project1").hover(
+//    function for portfolio responsivesness  
+    $("#work1").hover(
       function() {
-        $("#text1").show("2000");
+        $("#txt1").show("2000");
       },
       function() {
-        $("#text1").hide("2000");
+        $("#txt1").hide("2000");
       }
     );
-    $("#project2").hover(
+    $("#work2").hover(
       function() {
-        $("#text2").show("2000");
+        $("#txt2").show("2000");
       },
       function() {
-        $("#text2").hide("2000");
+        $("#txt2").hide("2000");
       }
     );
-    $("#project3").hover(
+    $("#work3").hover(
       function() {
-        $("#text3").show("2000");
+        $("#txt3").show("2000");
       },
       function() {
-        $("#text3").hide("2000");
+        $("#txt3").hide("2000");
       }
     );
-    $("#project4").hover(
+    $("#work4").hover(
       function() {
-        $("#text4").show("2000");
+        $("#txt4").show("2000");
       },
       function() {
-        $("#text4").hide("2000");
+        $("#txt4").hide("2000");
       }
     );
-    $("#project5").hover(
+    $("#work5").hover(
       function() {
-        $("#text5").show("2000");
+        $("#txt5").show("2000");
       },
       function() {
-        $("#text5").hide("2000");
+        $("#txt5").hide("2000");
       }
     );
-    $("#project6").hover(
+    $("#work6").hover(
       function() {
-        $("#text6").show("2000");
+        $("#txt6").show("2000");
       },
       function() {
-        $("#text6").hide("2000");
+        $("#txt6").hide("2000");
       }
     );
-    $("#project7").hover(
+    $("#work7").hover(
       function() {
-        $("#text7").show("2000");
+        $("#txt7").show("2000");
       },
       function() {
-        $("#text7").hide("2000");
+        $("#txt7").hide("2000");
       }
     );
-    $("#project8").hover(
+    $("#work8").hover(
       function() {
-        $("#text8").show("2000");
+        $("#txt8").show("2000");
       },
       function() {
-        $("#text8").hide("2000");
+        $("#txt8").hide("2000");
       }
     );
   });
