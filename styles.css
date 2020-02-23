@@ -92,15 +92,16 @@
     transform: scale(1.1);
     transition: opacity 0.5s ease-out;
   }
-  .whatWeDo {
-    font-size: 1.2em;
-    line-height: 1.9;
+  .To-Do {
+    font-size: large;
+    font-family: 'Monda';
+    line-height: 2;
     display: none;
   }
-  .pointer {
+  .point{
     cursor: pointer;
   }
-  .pointer:hover {
+  .point:hover {
     transform: scale(0.8);
     box-shadow: 5px 10px 8px 10px #888888;
     border-radius: 20%;

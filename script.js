@@ -17,28 +17,28 @@ function validateTheForm() {
     event.preventDefault();
   }
   $(document).ready(function() {
-    $("#designImage").click(function() {
+    $("#design-Img").click(function() {
       $("#design").show("2000");
-      $("#designImage").hide("slow")
+      $("#design-Img").hide("slow")
     });
     $("#design").click(function() {
-      $("#designImage").show("2000");
+      $("#design-Img").show("2000");
       $("#design").hide("slow")
     });
-    $("#developImage").click(function() {
+    $("#develop-Img").click(function() {
       $("#development").show("2000");
-      $("#developImage").hide("slow")
+      $("#develop-Img").hide("slow")
     });
     $("#development").click(function() {
-      $("#developImage").show("2000");
+      $("#develop-Img").show("2000");
       $("#development").hide("slow")
     });
-    $("#productImage").click(function() {
+    $("#product-Img").click(function() {
       $("#product").show("2000");
-      $("#productImage").hide("slow")
+      $("#product-Img").hide("slow")
     }); 
     $("#product").click(function() {
-      $("#productImage").show("2000");
+      $("#product-Img").show("2000");
       $("#product").hide("slow")
     });
   
