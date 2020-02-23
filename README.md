@@ -20,7 +20,7 @@
 - To view the source codes on github click [HERE](https://github.com/BillyAyiera/delani-studio)
 
 ## Technologies Used
-- html
+ - html
  - css
  - javascript
  - bootsrap 
