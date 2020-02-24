@@ -66,7 +66,6 @@
     top: 50%;
     color: black;
     font-size: 1.5em;
-    border: 4px solid white;
     padding:15px 15px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -83,9 +82,12 @@
     color: white;
   }
   .portfolio:hover {
-    opacity: 0.2;
-    transform: scale(1.1);
-    transition: opacity 0.5s ease-out;
+    opacity: 0.3;
+    transform: scale(1.0);
+    transition: opacity 0.2s ease-out;
+  }
+  .portfolio{
+    cursor: pointer;
   }
   .To-Do {
     font-size: large;
@@ -96,9 +98,3 @@
   .point{
     cursor: pointer;
   }
-  .point:hover {
-    transform: scale(0.8);
-    box-shadow: 5px 10px 8px 10px #888888;
-    border-radius: 20%;
-  }
-  

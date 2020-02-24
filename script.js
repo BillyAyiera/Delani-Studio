@@ -45,66 +45,66 @@ function validateTheForm() {
 //    function for portfolio-responsivesness  
     $("#work1").hover(
       function() {
-        $("#txt1").show("2000");
+        $("#txt1").show("");
       },
       function() {
-        $("#txt1").hide("2000");
+        $("#txt1").hide("");
       }
     );
     $("#work2").hover(
       function() {
-        $("#txt2").show("2000");
+        $("#txt2").show("");
       },
       function() {
-        $("#txt2").hide("2000");
+        $("#txt2").hide("");
       }
     );
     $("#work3").hover(
       function() {
-        $("#txt3").show("2000");
+        $("#txt3").show("");
       },
       function() {
-        $("#txt3").hide("2000");
+        $("#txt3").hide("");
       }
     );
     $("#work4").hover(
       function() {
-        $("#txt4").show("2000");
+        $("#txt4").show("");
       },
       function() {
-        $("#txt4").hide("2000");
+        $("#txt4").hide("");
       }
     );
     $("#work5").hover(
       function() {
-        $("#txt5").show("2000");
+        $("#txt5").show("");
       },
       function() {
-        $("#txt5").hide("2000");
+        $("#txt5").hide("");
       }
     );
     $("#work6").hover(
       function() {
-        $("#txt6").show("2000");
+        $("#txt6").show("");
       },
       function() {
-        $("#txt6").hide("2000");
+        $("#txt6").hide("");
       }
     );
     $("#work7").hover(
       function() {
-        $("#txt7").show("2000");
+        $("#txt7").show("");
       },
       function() {
-        $("#txt7").hide("2000");
+        $("#txt7").hide("");
       }
     );
     $("#work8").hover(
       function() {
-        $("#txt8").show("2000");
+        $("#txt8").show("");
       },
       function() {
-        $("#txt8").hide("2000");
+        $("#txt8").hide("");
       }
     );
   });
