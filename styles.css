@@ -3,7 +3,7 @@
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 200px;
     color: white;
     height: 100vh;
   }
@@ -22,7 +22,7 @@
   }
   .About {
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 23px;
     line-height: 3;
     height: 60vh;
     text-align: center;
@@ -42,13 +42,13 @@
     background-image: url(https://bit.ly/329RzGF);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 50px;
     height: 60vh;
     color: white;
   }
   #contacts {
     background-image: url(https://bit.ly/36o6L62);
-    padding-top: 50px;
+    padding-top: 20px;
     height: 50vh;
     color: white;
   }
