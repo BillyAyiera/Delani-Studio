@@ -23,7 +23,7 @@
   .About {
     font-family: 'Poppins';
     font-size: 23px;
-    line-height: 3;
+    line-height: 2.5;
     height: 60vh;
     text-align: center;
   }
@@ -42,7 +42,7 @@
     background-image: url(https://bit.ly/329RzGF);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 50px;
+    padding-top: 5 0px;
     height: 60vh;
     color: white;
   }
